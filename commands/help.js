@@ -10,7 +10,7 @@ module.exports = {
       
       const embed = new MessageEmbed()
         .setAuthor(`${cmd.name} | Help`, client.user.displayAvatarURL())
-        .setDescription(`**Name:** ${cmd.name}\nDescription: ${cmd.description}`);
+        .setDescription(`**Name:** ${cmd.name}\n**Description:** ${cmd.description}`);
 
         return msg.channel.send(embed);
     }
