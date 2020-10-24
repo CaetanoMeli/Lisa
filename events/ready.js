@@ -4,11 +4,9 @@ require('dotenv').config();
 
 module.exports = (client) => {
   console.info(`Logged in as ${client.user.tag}!`);
-  client.user.setPresence({
+  client.user.setActivity('l?help | discord.gg/aS7EnZG', {
+    url: "https://discord.gg/aS7EnZG",
     status: "online",
-    game: {
-      name: "l?help | discord.gg/aS7EnZG",
-      type: "PLAYING"
-    }
+    type: "PLAYING"
   })
 }
