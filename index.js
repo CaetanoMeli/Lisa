@@ -15,7 +15,7 @@ commandFiles.forEach(file => {
 
 bot.on('ready', () => {
   console.info(`Logged in as ${bot.user.tag}!`);
-  client.user.setPresence({
+  bot.user.setPresence({
     status: "online",
     game: {
       name: "l?help | discord.gg/aS7EnZG",
