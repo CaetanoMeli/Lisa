@@ -1,7 +1,8 @@
 module.exports = {
   name: 'ping',
   description: 'Ping!',
-  execute(msg, args) {
-    msg.reply('pong');
+  requirements: {},
+  execute(client, msg, args) {
+    msg.reply(`Pong! ${client.ws.ping.toFixed(2)}ms`);
   },
 };

@@ -1,54 +1,23 @@
-require('dotenv').config();
-
-const fs = require('fs');
 const { defaultPrefix, serverConfig } = require('./config.json');
 const Discord = require('discord.js');
-const bot = new Discord.Client();
-bot.commands = new Discord.Collection();
+require('dotenv').config();
 
-const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
-
-commandFiles.forEach(file => {
-  const command = require(`./commands/${file}`);
-  bot.commands.set(command.name, command)
+const client = new Discord.Client({
+  disableMentions: 'everyone',
+  disabledEvents: ["TYPING_START"]
 });
 
-bot.on('ready', () => {
-  console.info(`Logged in as ${bot.user.tag}!`);
-  bot.user.setPresence({
-    status: "online",
-    game: {
-      name: "l?help | discord.gg/aS7EnZG",
-      type: "PLAYING"
-    }
-  })
-});
+client.commands = new Discord.Collection();
 
-bot.on('message', msg => {
-  if (msg.author.bot) return;
+const commands = require('./structures/command');
+commands.run(client);
 
-  const serverCfg = serverConfig[msg.guild.id];
+const events = require('./structures/event');
+events.run(client);
 
-  const prefix = (serverCfg && serverCfg.prefix) || defaultPrefix;
+client.on("error", (e) => console.error(e));
 
-  const args = msg.content.slice(prefix.length).split(/ +/);
-  const command = args.shift().toLowerCase();
-
-  if (!msg.content.includes(prefix) || !bot.commands.has(command)) {
-    return;
-  }
-
-  try {
-    bot.commands.get(command).execute(msg, args);
-  } catch (error) {
-    console.error(error);
-    msg.reply('there was an error trying to execute that command!');
-  }
-});
-
-bot.on("error", (e) => console.error(e));
-
-bot.login(process.env.TOKEN);
+client.login(process.env.TOKEN);
 
 const http = require('http');
 const server = http.createServer((req, res) => {

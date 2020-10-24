@@ -3,7 +3,8 @@ const config = require('../config.json');
 module.exports = {
   name: 'set_prefix',
   description: 'Sets bot prefix!',
-  execute(msg, args) {
+  requirements: {},
+  execute(bot, msg, args) {
     const guildID = msg.guild.id;
     const newPrefix = args;
 
