@@ -26,7 +26,6 @@ bot.on('message', msg => {
 
   const args = msg.content.slice(prefix.length).split(/ +/);
   const command = args.shift().toLowerCase();
-  console.info(`Called command: ${command} with args: ${args}`);
 
   if (!msg.content.includes(prefix) || !bot.commands.has(command)) {
     return;
@@ -43,3 +42,10 @@ bot.on('message', msg => {
 bot.on("error", (e) => console.error(e));
 
 bot.login(process.env.TOKEN);
+
+const http = require('http');
+const server = http.createServer((req, res) => {
+  res.writeHead(200);
+  res.end('ok');
+});
+server.listen(3000);
