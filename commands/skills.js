@@ -1,5 +1,6 @@
 const {MessageEmbed} = require('discord.js');
 const units = require('../data/units');
+const addReactionsAndNavigate = require('../utils/reaction_navigation');
 
 module.exports = {
   name: 'skills',
@@ -9,9 +10,12 @@ module.exports = {
     const heroName = args[0];
     const [hero] = units.filter(unit => unit.id === heroName);
     if (hero) {
-      const embeds = hero.skills.map((skill, index) => buildSkillEmbed(hero, skill, index, hero.skills.length));
+      const currentPage = 0;
+      const maxPages = hero.skills.length;
+      const embeds = hero.skills.map((skill, index) => buildSkillEmbed(hero, skill, index, maxPages));
 
-      return msg.channel.send(embeds[0]);
+      return msg.channel.send(embeds[currentPage])
+          .then(message => addReactionsAndNavigate(msg, message, embeds, currentPage, maxPages));
     }
 
     msg.channel.reply('Unit doesnt exist! Use l?unit_list to check the list of all units');
