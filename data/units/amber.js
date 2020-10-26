@@ -1,12 +1,14 @@
 const SkillTypes = require('../skill_types');
+const ElementTypes = require('../element_types');
 
 module.exports = {
     id: 'amber',
     name: 'Amber',
     rarity: '★★★★',
+    element: ElementTypes.PYRO.img,
     url: 'https://genshin.gg/characters/Amber',
     thumbnail: 'https://rerollcdn.com/GENSHIN/Characters/Amber.png',
-    color: '#ff0000',
+    color: ElementTypes.PYRO.color,
     info: {
 
     },

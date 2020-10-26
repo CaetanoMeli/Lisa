@@ -18,7 +18,7 @@ module.exports = {
           .then(message => addReactionsAndNavigate(msg, message, embeds, currentPage, maxPages));
     }
 
-    msg.channel.reply('Unit doesnt exist! Use l?unit_list to check the list of all units');
+    msg.reply('Unit doesnt exist! Use l?unit_list to check the list of all units');
   },
 };
 
@@ -30,11 +30,12 @@ const buildSkillEmbed = (hero, skill, index, total) => {
 
   const embed = new MessageEmbed()
       .setColor(hero.color)
-      .setTitle(`[${hero.rarity}] ${hero.name}'s ${skill.name}`)
+      .setAuthor(`[${hero.rarity}] ${hero.name}`, hero.thumbnail)
+      .setTitle(`${skill.name}`)
       .setURL(hero.url)
       .setThumbnail(skill.thumbnail)
       .setDescription(description)
-      .setFooter(`Page ${index + 1}/${total}`);
+      .setFooter(`Page ${index + 1}/${total}`, hero.element);
 
   if (skill.rows) {
     skill.rows.forEach(row => {
