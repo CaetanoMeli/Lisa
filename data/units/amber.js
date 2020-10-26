@@ -5,10 +5,9 @@ module.exports = {
     id: 'amber',
     name: 'Amber',
     rarity: '★★★★',
-    element: ElementTypes.PYRO.img,
+    element: ElementTypes.PYRO,
     url: 'https://genshin.gg/characters/Amber',
     thumbnail: 'https://rerollcdn.com/GENSHIN/Characters/Amber.png',
-    color: ElementTypes.PYRO.color,
     info: {
 
     },
@@ -20,7 +19,7 @@ module.exports = {
             rows: [
                 {
                     name: 'Normal Attack',
-                    value: 'Performs up to 5 consecutive shots with a bow'
+                    value: 'Performs up to 5 consecutive shots with a bow.'
                 },
                 {
                     name: 'Charged Attack',

@@ -4,7 +4,7 @@ const addReactionsAndNavigate = require('../utils/reaction_navigation');
 
 module.exports = {
   name: 'skills',
-  description: 'Displays a hero skills',
+  description: 'Displays a unit\'s skills',
   requirements: {},
   execute(client, msg, args) {
     const heroName = args[0];
@@ -29,13 +29,13 @@ const buildSkillEmbed = (hero, skill, index, total) => {
   }
 
   const embed = new MessageEmbed()
-      .setColor(hero.color)
+      .setColor(hero.element.color)
       .setAuthor(`[${hero.rarity}] ${hero.name}`, hero.thumbnail)
       .setTitle(`${skill.name}`)
       .setURL(hero.url)
       .setThumbnail(skill.thumbnail)
       .setDescription(description)
-      .setFooter(`Page ${index + 1}/${total}`, hero.element);
+      .setFooter(`Page ${index + 1}/${total}`, hero.element.img);
 
   if (skill.rows) {
     skill.rows.forEach(row => {

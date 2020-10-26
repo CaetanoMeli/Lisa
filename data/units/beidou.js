@@ -5,10 +5,9 @@ module.exports = {
     id: 'beidou',
     name: 'Beidou',
     rarity: '★★★★',
-    element: ElementTypes.ELECTRO.img,
+    element: ElementTypes.ELECTRO,
     url: 'https://genshin.gg/characters/Beidou',
     thumbnail: 'https://rerollcdn.com/GENSHIN/Characters/Beidou.png',
-    color: ElementTypes.ELECTRO.color,
     info: {
 
     },

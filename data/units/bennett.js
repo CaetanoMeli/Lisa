@@ -5,10 +5,9 @@ module.exports = {
     id: 'bennett',
     name: 'Bennett',
     rarity: '★★★★',
-    element: ElementTypes.PYRO.img,
+    element: ElementTypes.PYRO,
     url: 'https://genshin.gg/characters/Bennett',
     thumbnail: 'https://rerollcdn.com/GENSHIN/Characters/Bennett.png',
-    color: ElementTypes.PYRO.color,
     info: {
 
     },
@@ -20,7 +19,7 @@ module.exports = {
             rows: [
                 {
                     name: 'Normal Attack',
-                    value: 'Performs up to 5 rapid strikes'
+                    value: 'Performs up to 5 rapid strikes.'
                 },
                 {
                     name: 'Charged Attack',

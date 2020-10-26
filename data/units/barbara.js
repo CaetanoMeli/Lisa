@@ -5,10 +5,9 @@ module.exports = {
     id: 'barbara',
     name: 'Barbara',
     rarity: '★★★★',
-    element: ElementTypes.HYDRO.img,
+    element: ElementTypes.HYDRO,
     url: 'https://genshin.gg/characters/Barbara',
     thumbnail: 'https://rerollcdn.com/GENSHIN/Characters/Barbara.png',
-    color: ElementTypes.HYDRO.color,
     info: {
 
     },
