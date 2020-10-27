@@ -12,6 +12,16 @@ const klee = require('./klee');
 const lisa = require('./lisa');
 const mona = require('./mona');
 const ningguang = require('./ningguang');
+const noelle = require('./noelle');
+const qiqi = require('./qiqi');
+const razor = require('./razor');
+const sucrose = require('./sucrose');
+const travelerAnemo = require('./traveler_anemo');
+const travelerGeo = require('./traveler_geo');
+const venti = require('./venti');
+const xiangling = require('./xiangling');
+const xiao = require('./xiao');
+const xingqiu = require('./xingqiu');
 
 module.exports = [
   amber,
@@ -27,5 +37,15 @@ module.exports = [
   klee,
   lisa,
   mona,
-  ningguang
+  ningguang,
+  noelle,
+  qiqi,
+  razor,
+  sucrose,
+  travelerAnemo,
+  travelerGeo,
+  venti,
+  xiangling,
+  xiao,
+  xingqiu
 ];

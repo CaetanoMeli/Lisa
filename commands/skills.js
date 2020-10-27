@@ -2,13 +2,15 @@ const {MessageEmbed} = require('discord.js');
 const units = require('../data/units');
 const addReactionsAndNavigate = require('../utils/reaction_navigation');
 
+const unitMap = new Map(units.map(unit => [unit.id, unit]));
+
 module.exports = {
   name: 'skills',
   description: 'Displays a unit\'s skills',
   requirements: {},
   execute(client, msg, args) {
-    const heroName = args[0];
-    const [hero] = units.filter(unit => unit.id === heroName);
+    const heroName = args.join('_').replace(/[(]/, '').replace(/[)]/, '');
+    const hero = unitMap.get(heroName) || units.find(unit => unit.id.toLowerCase().includes(heroName.toLowerCase()));
     if (hero) {
       const currentPage = 0;
       const maxPages = hero.skills.length;

@@ -77,7 +77,7 @@ module.exports = {
         {
             name: 'Spirit Blade - Chonghua\'s Layered Frost',
             type: SkillTypes.ELEMENTAL_SKILL,
-            //FIXME thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Passion_Overload.png',
+            //FIXME looks awful thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Spirit_Blade_-_Chonghua\'s_Layered_Frost.png',
             description: 'Chongyun strikes the ground with his greatsword, causing a **Cryo** explosion in a circular AoE in front of him that deals **Cryo** DMG.\n' +
                 'After a short delay, the cold air created by the **Cryo** explosion will coalesce into a Chonghua Frost Field, within which all DMG done through Normal and Charged Attacks by Sword, Greatsword and Polearm-wielding characters will be converted to **Cryo** DMG.',
             modifiers: [
@@ -102,7 +102,7 @@ module.exports = {
         {
             name: 'Spirit Blade - Cloud-parting Star',
             type: SkillTypes.ELEMENTAL_BURST,
-            //FIXME thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Fantastic_Voyage.png',
+            //FIXME looks awful thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Spirit_Blade_-_Cloud-parting_Star.png',
             description: 'Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.\n' +
                 'When the spirit blades explode, they will deal AoE **Cryo** DMG and launch enemies.',
             modifiers: [
