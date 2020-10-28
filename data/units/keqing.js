@@ -138,7 +138,62 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Thundering Penance',
+            //FIXME thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Retribution.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Within 5s of recasting Stellar Restoration while a Lightning Stiletto is present, Keqing\'s Normal and Charged Attacks are converted to **Electro** DMG.'
+        },
+        {
+            name: 'Aristocratic Dignity',
+            //FIXME thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Leviathan\'s_Protection.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'When casting Starward Sword, Keqing\'s CRIT Rate is increased by 15%, and her Energy Recharge is increased by 15%. This effect lasts for 8s.'
+        },
+        {
+            name: 'Land\'s Overseer',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Conqueror_of_Tides.png',
+            ascension: 'Unlocked Automatically',
+            description: 'When dispatched on an expedition in Liyue, time consumed is reduced by 25%.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

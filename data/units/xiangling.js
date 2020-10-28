@@ -123,7 +123,62 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Crossfire',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Crossfire.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Increases the flame range of Guoba by 20%.'
+        },
+        {
+            name: 'Beware, It\'s Super Hot!',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Beware,_It\'s_Super_Hot!.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'When **Guoba Attack**\'s effect ends, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s.'
+        },
+        {
+            name: 'Chef de Cuisine',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Chef_de_Cuisine.png',
+            ascension: 'Unlocked Automatically',
+            description: 'When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

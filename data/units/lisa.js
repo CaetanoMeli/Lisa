@@ -138,7 +138,62 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Induced Aftershock',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Induced_Aftershock.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Hits by charged Attacks apply **Violet Arc**\'s Conductive status to enemies.'
+        },
+        {
+            name: 'Static Electricity Field',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Static_Electricity_Field.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'Enemies hit by **Lightning Rose** have their DEF decreased by 15% for 10s.'
+        },
+        {
+            name: 'General Pharmaceutics',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/General_Pharmaceutics.png',
+            ascension: 'Unlocked Automatically',
+            description: 'When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

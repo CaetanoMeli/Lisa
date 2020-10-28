@@ -150,7 +150,64 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Devotion',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Devotion.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'When Noelle is in the party but not on the field, this ability triggers automatically when the active character\'s HP falls below 30%:\n' +
+                'Creates a shield that lasts for 20s and absorbs DMG equal to 400% of Noelle\'s DEF. This effect can only occur once every 60s.'
+        },
+        {
+            name: 'Nice and Clean',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Nice_and_Clean.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'Every 4 Normal or Charged Attack hits will decrease the CD of **Breastplate** by 1s.\n' +
+                'Hitting multiple enemies with a single attack is only counted as 1 hit.'
+        },
+        {
+            name: 'Maid\'s Knighthood',
+            //FIXME thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/General_Pharmaceutics.png',
+            ascension: 'Unlocked Automatically',
+            description: 'When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

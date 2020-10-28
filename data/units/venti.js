@@ -147,7 +147,63 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Embrace of Winds',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Embrace_of_Winds.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Holding **Skyward Sonnet** creates an upcurrent that lasts for 20s.'
+        },
+        {
+            name: 'Stormeye',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Stormeye.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'Regenerates 15 Energy for Venti after the effects of **Wind\'s Grand Ode** end.\n' +
+                'If an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element.'
+        },
+        {
+            name: 'Windrider',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Windrider.png',
+            ascension: 'Unlocked Automatically',
+            description: 'Decreases all party member\'s gliding Stamina Consumption by 20%.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

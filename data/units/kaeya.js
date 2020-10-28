@@ -111,7 +111,63 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Cold-Blooded Strike',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Cold-Blooded_Strike.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Every hit with **Frostgnaw** regenerates HP for Kaeya equal to 15% of ATK.'
+        },
+        {
+            name: 'Heart of the Abyss',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Heart_of_the_Abyss.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'Enemies Frozen by **Frostgnaw** will drop additional Elemental Particles.\n' +
+                '**Frostgnaw** may only produce a maximum of 2 additional Elemental Particles per use.'
+        },
+        {
+            name: 'Hidden Strength',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Hidden_Strength.png',
+            ascension: 'Unlocked Automatically',
+            description: 'Decreases all party member\'s sprinting Stamina consumption by 20%..'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

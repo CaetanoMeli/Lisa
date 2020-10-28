@@ -123,7 +123,62 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Stellar Predator',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Stellar_Predator.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing AoE **Electro** DMG equal to 152.7% of the arrow\'s DMG.'
+        },
+        {
+            name: 'Lightning Smite',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Lightning_Smite.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'If a character triggers an Electro-related Elemental Reaction when Oz is on the field, the enemy shall be stricken with Thundering Retribution, dealing **Electro** DMG equal to 80% of Fischl\'s ATK.'
+        },
+        {
+            name: 'Mein Hausgarten',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Mein_Hausgarten.png',
+            ascension: 'Unlocked Automatically',
+            description: 'When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

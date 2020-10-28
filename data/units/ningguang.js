@@ -110,7 +110,62 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Backup Plan',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Backup_Plan.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.'
+        },
+        {
+            name: 'Strategic Reserve',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Strategic_Reserve.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s.'
+        },
+        {
+            name: 'Trove of Marvelous Treasure',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Trove_of_Marvelous_Treasure.png',
+            ascension: 'Unlocked Automatically',
+            description: 'Displays the location of nearby ore veins (Iron Ore, White Iron Ore, Crystal Ore, and Magical Crystal Ore) on the mini-map.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

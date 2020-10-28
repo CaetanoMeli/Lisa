@@ -143,7 +143,62 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Wind Companion',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Wind_Companion.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Hits by Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean\'s ATK for all party members.'
+        },
+        {
+            name: 'Let the Wind Lead',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Let_the_Wind_Lead.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'Using **Dandelion Breeze** will regenerate 20% of its Energy.'
+        },
+        {
+            name: 'Guiding Breeze',
+            //FIXME thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Conqueror_of_Tides.png',
+            ascension: 'Unlocked Automatically',
+            description: 'When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

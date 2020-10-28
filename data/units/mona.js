@@ -166,7 +166,63 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Come \'n\' Get Me, Hag!',
+            //FIXME thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Retribution.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'After she has used Illusory Torrent for 2s, if there are any enemies nearby, Mona will automatically create a Phantom.\n' +
+                'A Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom.'
+        },
+        {
+            name: 'Waterborne Destiny',
+            //FIXME thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Leviathan\'s_Protection.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'Increases Mona\'s **Hydro** DMG Bonus by a degree equivalent to 20% of her Energy Recharge rate.'
+        },
+        {
+            name: 'Principium of Astrology',
+            //FIXME thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Conqueror_of_Tides.png',
+            ascension: 'Unlocked Automatically',
+            description: 'When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

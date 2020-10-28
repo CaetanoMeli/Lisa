@@ -173,7 +173,63 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Awakening',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Awakening.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Decreases **Claw and Thunder**\'s CD by 18%.\n' +
+                'Using **Lightning Fang** resets the CD of **Claw and Thunder**.'
+        },
+        {
+            name: 'Hunger',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Hunger.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'When Razor\'s Energy is below 50%, increases Energy Recharge by 30%.'
+        },
+        {
+            name: 'Wolvensprint',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Wolvensprint.png',
+            ascension: 'Unlocked Automatically',
+            description: 'Decreases all party member\'s sprinting Stamina Consumption by 20%.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

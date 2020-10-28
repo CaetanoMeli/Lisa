@@ -134,7 +134,62 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Relentless',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Relentless.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Diluc\'s Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.'
+        },
+        {
+            name: 'Blessing of Phoenix',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Blessing_of_Phoenix.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'The **Pyro** Enchantment provided by **Dawn** lasts for 4s longer. Additionally, Diluc gains 20% **Pyro** DMG Bonus during the duration of this effect.'
+        },
+        {
+            name: 'Tradition of the Dawn Knight',
+            //FIXME thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Conqueror_of_Tides.png',
+            ascension: 'Unlocked Automatically',
+            description: 'Refunds 15% of the ores used when crafting Claymore-type weapons.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

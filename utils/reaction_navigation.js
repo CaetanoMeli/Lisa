@@ -1,4 +1,4 @@
-const addReactionsAndNavigate = async (originalMsg, msg, embeds, currentPage, maxPages) => {
+const addReactionsAndNavigate = async (originalMsg, msg, embeds, currentPage, maxPages, time = 15000) => {
     const leftArrowEmoji = '⬅️';
     const rightArrowEmoji = '➡️';
 
@@ -9,7 +9,7 @@ const addReactionsAndNavigate = async (originalMsg, msg, embeds, currentPage, ma
         return (reaction.emoji.name === leftArrowEmoji || reaction.emoji.name === rightArrowEmoji) && originalMsg.author.id === user.id;
     };
 
-    const collector = msg.createReactionCollector(filter, { time: 15000 });
+    const collector = msg.createReactionCollector(filter, { time });
 
     collector.on('collect', reaction => {
         switch (reaction.emoji.name) {

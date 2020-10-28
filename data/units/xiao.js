@@ -109,7 +109,63 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Evil Conqueror - Tamer of Demons',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Evil_Conqueror_-_Tamer_of_Demons.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Starting **Bane of All Evil** increases Xiao\'s DMG by 5%. After this, Xiao\'s DMG continues to increase by 5% every 3s until the skill ends. Max 25% increase.'
+        },
+        {
+            name: 'Dissolution Eon - Heaven Fall',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Dissolution_Eon_-_Heaven_Fall.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'When **Lemniscatic Wind Cycling** is used, increases all subsequent **Lemniscatic Wind Cycling**\'s DMG by 10% for 6s. Max 3 stacks. Duration refreshes with new stacks.'
+        },
+        {
+            name: 'Transcension - Gravity Defier',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Transcension_-_Gravity_Defier.png',
+            ascension: 'Unlocked Automatically',
+            description: 'Decreases all party member\'s falling DMG by 30%.\n' +
+                'The greatest effect out of all Talents of the same type prevails.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

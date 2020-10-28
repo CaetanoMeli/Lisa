@@ -137,7 +137,62 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Hydropathic',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Hydropathic.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'When a Rain Sword is shattered or when its duration expires, it regenerates the current character\'s HP based on 6% of Xingqiu\'s Max HP.'
+        },
+        {
+            name: 'Blades Amidst Raindrops',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Blades_Amidst_Raindrops.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'Xingqiu gains a 20% **Hydro** DMG Bonus.'
+        },
+        {
+            name: 'Flash of Genius',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Flash_of_Genius.png',
+            ascension: 'Unlocked Automatically',
+            description: 'When Xingqiu crafts Character Talent Materials, he has a 25% chance to refund a portion of the crafting materials used.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

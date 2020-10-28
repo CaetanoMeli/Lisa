@@ -156,7 +156,64 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Retribution',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Retribution.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Counterattacking with **Tidecaller** at the precise moment when the character is hit grants the maximum DMG Bonus.'
+        },
+        {
+            name: 'Leviathan\'s Protection',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Leviathan\'s_Protection.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'Gain the following effects for 10s after unleashing **Tidecaller** with its maximum DMG Bonus:\n' +
+                '• DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\n' +
+                '• Greatly reduced delay before unleashing Charged Attacks.'
+        },
+        {
+            name: 'Conqueror of Tides',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Conqueror_of_Tides.png',
+            ascension: 'Unlocked Automatically',
+            description: 'Decreases all party member\'s swimming Stamina consumption by 20%.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

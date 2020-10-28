@@ -128,7 +128,56 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Shattered Darkrock',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Shattered_Darkrock.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Reduces Starfell Sword\'s CD by 2s.'
+        },
+        {
+            name: 'Frenzied Rockslide',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Frenzied_Rockslide.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as AoE **Geo** DMG.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

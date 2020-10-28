@@ -131,7 +131,66 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Every Arrow Finds Its Target',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Every_Arrow_Finds_Its_Target.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Increases the CRIT Rate of **Fiery Rain** by 10% and widens its AoE by 30%.'
+        },
+        {
+            name: 'Precise Shot',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Precise_Shot.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'Aimed Shot hits on weak spots increase Base ATK by 15% for 10s.'
+        },
+        {
+            name: 'Every Arrow Finds Its Target',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Gliding_Champion.png',
+            ascension: 'Unlocked Automatically',
+            description: 'Decreases all party members\' gliding Stamina Consumption by 20%.\n' +
+                'The greatest effect out of all Talents of the same type prevails.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: 'Fires 2 arrows per Aimed Shot. The second arrow deals 20% of the first arrow\'s DMG.'
+        },
+        {
+            name: 'Bunny Triggered',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Bunny_Triggered.png',
+            level: 'Constellation Lv. 2',
+            description: 'Baron Bunny, new and improved! Hitting Baron Bunny\'s foot with a fully-charged Aimed Shot manually detonates it.\n' +
+                'Explosion via manual detonation deals 200% additional DMG.'
+        },
+        {
+            name: 'It Burns!',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/It_Burns!.png',
+            level: 'Constellation Lv. 3',
+            description: 'Increases the Level of **Fiery Rain** by 3.\n' +
+                'Maximum upgrade level is 15.'
+        },
+        {
+            name: 'It\'s Not Just Any Doll...',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/It\'s_Not_Just_Any_Doll....png',
+            level: 'Constellation Lv. 4',
+            description: 'Decreases **Explosive Puppet**\'s CD by 20%. Adds 1 additional charge.'
+        },
+        {
+            name: 'It\'s Baron Bunny!',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/It\'s_Baron_Bunny!.png',
+            level: 'Constellation Lv. 5',
+            description: 'Increase the Level of **Explosive Puppet** by 3.\n' +
+                'Maximum upgrade level is 15.'
+        },
+        {
+            name: 'Wildfire',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Wildfire.png',
+            level: 'Constellation Lv. 6',
+            description: '**Fiery Rain** increases Amber\'s Movement SPD by 15% and Base ATK by 15% for 10s.'
+        }
     ]
 };

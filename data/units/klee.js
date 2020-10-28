@@ -116,7 +116,62 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Pounding Surprise',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Pounding_Surprise.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'When **Jumpy Dumpty** and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark. This Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.'
+        },
+        {
+            name: 'Sparkling Burst',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Sparkling_Burst.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'When a Charged Attack results in a CRIT, all party members gain 2 Elemental Energy.'
+        },
+        {
+            name: 'All Of My Treasures!',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/All_Of_My_Treasures!.png',
+            ascension: 'Unlocked Automatically',
+            description: 'Displays the location of nearby resources unique to Mondstadt on the mini-map.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

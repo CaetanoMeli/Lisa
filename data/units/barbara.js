@@ -123,7 +123,63 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Glorious Season',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Glorious_Season.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'The Stamina Consumption of characters within **Let the Show Begin**\'s Melody Loop is reduced by 12%.'
+        },
+        {
+            name: 'Encore',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Precise_Shot.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'When a character gains an Elemental Orb/Particle, the duration of **Let the Show Begin**\'s Melody Loop is extended by 1s.\n' +
+                'The maximum extension is 5s.'
+        },
+        {
+            name: 'With My Whole Heart',
+            //FIXME thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Gliding_Champion.png',
+            ascension: 'Unlocked Automatically',
+            description: 'When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };

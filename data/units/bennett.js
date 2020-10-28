@@ -151,7 +151,64 @@ module.exports = {
             ]
         }
     ],
+    passives: [
+        {
+            name: 'Rekindle',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Rekindle.png',
+            ascension: 'Unlocked at Ascension 1',
+            description: 'Decreases **Passion Overload**\'s CD by 20%.'
+        },
+        {
+            name: 'Fearnaught',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/Fearnaught.png',
+            ascension: 'Unlocked at Ascension 4',
+            description: 'When inside the area created by **Fantastic Voyage**, **Passion Overload** takes on the following effects:\n' +
+                '• CD is reduced by 50%.\n' +
+                '• Bennett will not be launched by the effects of Charge Level 2.'
+        },
+        {
+            name: 'It Should Be Safe...',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/It_Should_Be_Safe....png',
+            ascension: 'Unlocked Automatically',
+            description: 'When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.'
+        }
+    ],
     constellations: [
-
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 1',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 2',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 3',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 4',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 5',
+            description: ''
+        },
+        {
+            name: 'One Arrow to Rule Them All',
+            thumbnail: 'https://rerollcdn.com/GENSHIN/Skills/NEW/One_Arrow_to_Rule_Them_All.png',
+            level: 'Constellation Lv. 6',
+            description: ''
+        }
     ]
 };
