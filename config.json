@@ -1,5 +1,14 @@
 {
   "defaultPrefix": "l?",
+  "discordCDN": {
+    "baseUrl": "https://cdn.discordapp.com",
+    "guildIdHash": "guild_id",
+    "guildIconHash": "guild_icon",
+    "extensionHash": "icon_extension",
+    "guildIconUrl": "icons/guild_id/guild_icon.icon_extension",
+    "guildBannerHash": "guild_banner",
+    "guildBannerUrl": "banners/guild_id/guild_banner.png"
+  },
   "serverConfig": {
 
   }

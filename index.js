@@ -1,5 +1,6 @@
 const { defaultPrefix, serverConfig } = require('./config.json');
 const Discord = require('discord.js');
+const EmbedBuilder = require("./utils/embed_builder");
 require('dotenv').config();
 
 const client = new Discord.Client({
@@ -15,7 +16,11 @@ commands.run(client);
 const events = require('./structures/event');
 events.run(client);
 
-client.on("error", (e) => console.error(e));
+process.on('unhandledRejection', async e => {
+  console.error(e);
+  const errorChannel = await client.channels.fetch(process.env.BOT_ERROR_CHANNEL);
+  errorChannel.send(EmbedBuilder.buildErrorEmbed(e));
+});
 
 client.login(process.env.TOKEN);
 

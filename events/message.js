@@ -1,8 +1,9 @@
 const { defaultPrefix, serverConfig } = require('../config.json');
+const EmbedBuilder = require('../utils/embed_builder');
 const owners = process.env.OWNERS;
 require('dotenv').config();
 
-module.exports = (client, msg) => {
+module.exports = async(client, msg) => {
   if (msg.author.bot) return;
 
   const serverCfg = serverConfig[msg.guild.id];
@@ -31,6 +32,8 @@ module.exports = (client, msg) => {
   } catch (error) {
     console.error(error);
     msg.reply('there was an error trying to execute that command!');
+    const errorChannel = await client.channels.fetch(process.env.BOT_ERROR_CHANNEL);
+    errorChannel.send(EmbedBuilder.buildErrorEmbed(error))
   }
 }
 
